@@ -8,7 +8,7 @@ import com.crud.employee.model.EmployeePOJO;
 @Repository
 public interface EmployeeRepo extends JpaRepository<EmployeePOJO, Integer> {
 
-	public EmployeePOJO getLogin(String userName,String password);
+	
 	
 	
 	
